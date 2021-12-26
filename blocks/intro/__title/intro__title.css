@@ -1,0 +1,15 @@
+.intro__title {
+  max-width: 690px;
+  font-size: 54px;
+  font-family: "Inter Black", "Arial", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

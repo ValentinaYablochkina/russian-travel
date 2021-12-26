@@ -1,0 +1,16 @@
+.cover {
+  max-width: 1184px;
+  margin: 0 auto;
+  padding-bottom: 92px;
+  padding-top: 90px;
+}
+  
+.cover:hover {
+  opacity: 0.25;
+}
+
+@media screen and (max-width: 600px) {
+  .cover {
+    padding-top: 16px;
+  }
+}
