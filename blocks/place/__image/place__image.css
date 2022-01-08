@@ -4,16 +4,24 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1180px) {
+  .place__image {
+    max-width: 440px;
+    height: 440px;
+    }
+}
+
+@media screen and (max-width: 900px) {
   .place__image {
     max-width: 340px;
     height: 340px;
     }
 }
 
-@media screen and (max-width: 366px) {
+@media screen and (max-width: 700px) {
   .place__image {
-    max-width: 318px;
-    height: 318px;
+    max-width: 320px;
+    height: 320px;
+    margin-bottom: 32px;
     }
 }

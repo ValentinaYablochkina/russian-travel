@@ -6,11 +6,18 @@
   margin-bottom: 73px;
 }
 
+@media screen and (max-width: 1068px) {
+  .place {
+    column-gap: 28px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .place {
     display: flex;
     flex-direction: column;
     margin: 0;
+    row-gap: 0;
     justify-content: flex-start;
     align-items: flex-start;
     margin-bottom: 50px;

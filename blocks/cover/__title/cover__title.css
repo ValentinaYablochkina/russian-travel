@@ -5,9 +5,9 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  color: #FFF;
+  color: white;
   max-width: 560px;
-  z-index: 3;
+  margin: 0;
 }
 
 @media screen and (max-width: 600px) {

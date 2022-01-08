@@ -8,10 +8,30 @@
   padding-bottom: 24px;
 }
 
+@media screen and (min-width: 1280px) {
+  .footer {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: 720px;
+    padding-top: 88px;
+  } 
+}
+
 @media screen and (max-width: 600px) {
   .footer {
     flex-direction: column;
     gap: 48px;
     justify-content: center;
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    max-width: 186px;
+    padding-top: 64px;
   } 
 }

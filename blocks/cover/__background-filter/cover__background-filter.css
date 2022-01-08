@@ -1,12 +1,12 @@
 .cover__background-filter {
+  background: #2A2C2F;
+  opacity: 0.25;
+  margin: 0;
+  position: absolute;
   width: 100%;
-  min-height: 740px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #000;
-  opacity: 0.6;
+  height: 100%;
+  top: 0;
+  left: 0;
   z-index: 2;
 }
 
@@ -19,14 +19,12 @@
 
 @media screen and (max-width: 768px) {
   .cover__background-filter {
-    max-width: 100%;
     min-height: 480px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__background-filter {
-    max-width: 100%;
     min-height: 200px;
   }
 }
