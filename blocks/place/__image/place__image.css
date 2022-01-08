@@ -25,3 +25,9 @@
     margin-bottom: 32px;
     }
 }
+
+@media screen and (max-width: 600px) {
+  .place__image {
+    margin: 0 auto 32px auto;
+    }
+}
