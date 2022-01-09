@@ -18,6 +18,7 @@
   .footer {
     max-width: 720px;
     padding-top: 88px;
+    margin: 0 24px;
   } 
 }
 
@@ -31,6 +32,7 @@
 
 @media screen and (max-width: 320px) {
   .footer {
+    margin-left: 16px;
     max-width: 186px;
     padding-top: 64px;
   } 

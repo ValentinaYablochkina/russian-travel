@@ -1,6 +1,6 @@
 .header__lang-links {
   display: grid;
   grid-template-columns: repeat(2, 30px);
-  grid-template-rows: repeat(2, 28px);
   column-gap: 18px;
+  margin-top: 5px;
 }
